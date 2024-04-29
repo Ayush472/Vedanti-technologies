@@ -1,3 +1,6 @@
+import Image from "next/image";
+import img from "../../assets/Images/industry.jpeg";
+
 const LandingProfile = () => {
   return (
     <div className="bg-bgMain">
@@ -11,7 +14,7 @@ const LandingProfile = () => {
           </div>
         </div>
         <div className="w-1/2">
-          <img src="../../assets/Images/industry.jpeg" alt="" />
+          <Image src={img} alt="" width={500} height={500} />
         </div>
       </div>
     </div>
