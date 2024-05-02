@@ -4,6 +4,7 @@ import LandingProfile from "@/components/landingprofile/page";
 import CompanyProfileLanding from "@/components/companyProfileLanding/page";
 import ProductGallery from "../components/productGallery/page";
 import GetInTouch from "@/components/getInTouch/page";
+import Footer from "@/components/Footer/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CompanyProfileLanding />
       <ProductGallery />
       <GetInTouch />
+      <Footer/>
     </div>
   );
 }
