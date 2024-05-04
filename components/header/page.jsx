@@ -1,6 +1,15 @@
-import { IoMdHome } from "react-icons/io";
-import { IoMdMail } from "react-icons/io";
+"use client";
+import { IoMdHome, IoMdMail } from "react-icons/io";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
 const Header = () => {
+  const [activeRoute, setActiveRoute] = useState("");
+
+  useEffect(() => {
+    setActiveRoute(window.location.pathname);
+  }, []);
+
   return (
     <div>
       <div className="shadow-md shadow-bottom-black">
@@ -10,12 +19,26 @@ const Header = () => {
             <p className="text-green-600">ENGINEERING</p>
           </div>
           <div className="flex py-6 px-4 gap-8 items-center">
-            <div className="cursor-pointer">
-              <IoMdHome className="text-green-600 text-2xl" />
-            </div>
-            <div className="hover:text-green-600 font-semibold cursor-pointer hover:underline tracking-wider">
-              About
-            </div>
+            <Link href="/" passHref>
+              <div className="cursor-pointer">
+                <IoMdHome
+                  className={`hover:text-green-600 text-2xl ${
+                    activeRoute === "/" ? " text-green-600" : ""
+                  }`}
+                />
+              </div>
+            </Link>
+            <Link href="/aboutpage" passHref>
+              <div
+                className={`hover:text-green-600 font-semibold cursor-pointer hover:border-b-2 hover:border-green-600 tracking-wider ${
+                  activeRoute === "/aboutpage"
+                    ? "border-b-2 border-green-600 text-green-600"
+                    : ""
+                }`}
+              >
+                About
+              </div>
+            </Link>
             <div className="hover:text-green-600 font-semibold cursor-pointer hover:underline tracking-wider">
               Product
             </div>
@@ -36,4 +59,5 @@ const Header = () => {
     </div>
   );
 };
+
 export default Header;
