@@ -131,25 +131,40 @@ const Footer = () => {
 
             <ul className="mt-2">
               <li>
-                <Link className="flex items-center my-2 text-[#4c4c4c]" href="/">
+                <Link
+                  className="flex items-center my-2 text-[#4c4c4c]"
+                  href="/"
+                >
                   <FaPhoneVolume className="mr-5 text-[#4c4c4c] hover:text-blue-600" />
                   +91 9173787235
                 </Link>
               </li>
               <li>
-                <Link className="flex items-center my-2 text-[#4c4c4c]" href="/">
+                <Link
+                  className="flex items-center my-2 text-[#4c4c4c]"
+                  href="/"
+                >
                   <FaPhoneVolume className="mr-5 text-[#4c4c4c] hover:text-blue-600" />
                   +91 9173787235
                 </Link>
               </li>
               <li>
-                <Link className="flex items-center my-2 text-[#4c4c4c]" href="/">
-                  <IoMail className="mr-5 text-[#4c4c4c] hover:text-blue-600" size={20} />
+                <Link
+                  className="flex items-center my-2 text-[#4c4c4c]"
+                  href="/"
+                >
+                  <IoMail
+                    className="mr-5 text-[#4c4c4c] hover:text-blue-600"
+                    size={20}
+                  />
                   vedantitechnologies@gmail.com
                 </Link>
               </li>
               <li>
-                <Link className="flex items-start  my-2 text-[#4c4c4c]" href="/">
+                <Link
+                  className="flex items-start  my-2 text-[#4c4c4c]"
+                  href="/"
+                >
                   <IoLocationSharp
                     className="relative mr-3 text-[#4c4c4c] hover:text-blue-600"
                     size={70}

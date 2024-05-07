@@ -22,14 +22,13 @@ const AboutHeader = () => {
           <Image src={img} alt="" width={500} height={500} />
         </div>
         <div className="w-1/2 py-7">
-          <div className="text-orange-600 text-5xl font-bold mt-3">
+          <div className="text-redMain text-5xl font-bold mt-3">
             Company Profile
           </div>
-          {/* <span className="w-full bg-green-600 h-1"></span> */}
           <div className="mt-4 pr-4">
             <ul>
               <li className="list-disc mb-3">
-                We, Hency Engineering, situated at Kathawada GIDC, Ahmedabad,
+                We, Vedanti Technologies, situated at Kathawada GIDC, Ahmedabad,
                 Gujarat, India are a sole proprietary concern in this industry
                 for more than 10 Years. We are manufacturer of electrical panel
                 like Main LT Panel, APFC Panel, AMF Panel, Synchronizing Panel,
@@ -37,7 +36,7 @@ const AboutHeader = () => {
                 Panel, PCC (Power Control Centre),
               </li>
               <li className="list-disc mb-3">
-                We, Hency Engineering, situated at Kathawada GIDC, Ahmedabad,
+                We, Vedanti Technologies, situated at Kathawada GIDC, Ahmedabad,
                 Gujarat, India are a sole proprietary concern in this industry
                 for more than 10 Years. We are manufacturer of electrical panel
                 like Main LT Panel, APFC Panel, AMF Panel, Synchronizing Panel,
@@ -51,7 +50,7 @@ const AboutHeader = () => {
       <div className="px-10 mt-4 mb-14">
         <ul>
           <li className="list-disc mb-3">
-            We, Hency Engineering, situated at Kathawada GIDC, Ahmedabad,
+            We, Vedanti Technologies, situated at Kathawada GIDC, Ahmedabad,
             Gujarat, India are a sole proprietary concern in this industry for
             more than 10 Years. We are manufacturer of electrical panel like
             Main LT Panel, APFC Panel, AMF Panel, Synchronizing Panel, Fire
@@ -59,7 +58,7 @@ const AboutHeader = () => {
             (Power Control Centre),
           </li>
           <li className="list-disc mb-3">
-            We, Hency Engineering, situated at Kathawada GIDC, Ahmedabad,
+            We, Vedanti Technologies, situated at Kathawada GIDC, Ahmedabad,
             Gujarat, India are a sole proprietary concern in this industry for
             more than 10 Years. We are manufacturer of electrical panel like
             Main LT Panel, APFC Panel, AMF Panel, Synchronizing Panel, Fire
