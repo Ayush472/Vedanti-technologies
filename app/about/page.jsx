@@ -3,7 +3,7 @@ import AboutHeader from "@/components/aboutheader/page";
 import Header from "@/components/header/page";
 import HeaderTop from "@/components/headertop/page";
 
-const AboutPage = () => {
+const About = () => {
   return (
     <div>
       <HeaderTop />
@@ -13,4 +13,4 @@ const AboutPage = () => {
     </div>
   );
 };
-export default AboutPage;
+export default About;

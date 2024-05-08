@@ -15,7 +15,7 @@ export default function Home() {
       <CompanyProfileLanding />
       <ProductGallery />
       <GetInTouch />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

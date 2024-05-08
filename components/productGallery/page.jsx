@@ -20,9 +20,9 @@ const imgGallery = [
 const ProductGallery = () => {
   return (
     <div className="p-4">
-      <div className="font-bold text-5xl text-orange-500">
+      <div className="font-bold text-5xl text-redMain">
         <span
-          className="border-b border-green-600 rounded-sm"
+          className="border-b border-blueMain rounded-sm"
           style={{ borderBottomWidth: "5px" }}
         >
           Our

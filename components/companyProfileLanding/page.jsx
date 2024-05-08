@@ -11,12 +11,12 @@ const CompanyProfileLanding = () => {
         </div>
         <div className="w-1/2 py-7">
           <div className="text-black font-bold text-4xl">Welcome to</div>
-          <div className="text-orange-600 text-5xl font-bold mt-3">
-            Hency Engineering
+          <div className="text-redMain text-5xl font-bold mt-3">
+            Vedanti Technologies
           </div>
-          {/* <span className="w-full bg-green-600 h-1"></span> */}
+          {/* <span className="w-full bg-blueMain h-1"></span> */}
           <div className="mt-4 pr-4">
-            We, Hency Engineering, situated at Kathawada GIDC, Ahmedabad,
+            We, Vedanti Technologies, situated at Kathawada GIDC, Ahmedabad,
             Gujarat, India are a sole proprietary concern in this industry for
             more than 10 Years. We are manufacturer of electrical panel like
             Main LT Panel, APFC Panel, AMF Panel, Synchronizing Panel, Fire
@@ -30,7 +30,7 @@ const CompanyProfileLanding = () => {
           </div>
           <div className="flex mt-4 items-center gap-2">
             <div
-              className="font-bold border-b border-green-600 flex items-center gap-3 cursor-pointer"
+              className="font-bold border-b border-blueMain flex items-center gap-3 cursor-pointer"
               style={{ borderBottomWidth: "3px" }}
             >
               read more
