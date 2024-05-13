@@ -1,0 +1,19 @@
+
+/* .icon-text {
+    position: relative;
+    display: inline-block;
+  } */
+.icon-text::before,
+.icon-text::after {
+    display: block;
+    content: "";
+    border-bottom: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border-top: solid 1px #A4D9FD;
+
+}
+
+
+

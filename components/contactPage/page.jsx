@@ -173,13 +173,19 @@ const ContactPage = () => {
                 </Form>
               )}
             </Formik>
-
           </div>
         </div>
       </div>
-            <div className="flex justifyContent-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.515485711983!2d72.64051547854747!3d23.004837763345336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8646d7677d81%3A0x59c9a5071de76452!2sVedanti%20Technologies!5e0!3m2!1sen!2sin!4v1715188968866!5m2!1sen!2sin" width={600} height={450} style={{border:0}} allowfullscreen="" loading="lazy" ></iframe>
-            </div>
+      <div className="flex justifyContent-center m-10">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.515485711983!2d72.64051547854747!3d23.004837763345336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8646d7677d81%3A0x59c9a5071de76452!2sVedanti%20Technologies!5e0!3m2!1sen!2sin!4v1715188968866!5m2!1sen!2sin"
+          width={"100%"}
+          height={450}
+          style={{ border: 0 }}
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
   );
 };
