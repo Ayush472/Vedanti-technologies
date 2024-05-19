@@ -7,9 +7,9 @@ import Header from "@/components/header/page";
 import Footer from "@/components/Footer/page";
 import ProductCard from "@/components/proudctCard/page";
 let object = {
-  h: "48",
+  h: "60",
   text: "5xl",
-  insetY: "1/2",
+  insetY: "1/4",
   inset: "1/3",
 };
 const Products = () => {

@@ -8,18 +8,9 @@ const PageHeader = ({ name, imageUrl, headerStyle }) => {
   return (
     <div className={`relative  h-${headerStyle.h}`}>
       <div
-        className={`z-10 absolute inset-y-${headerStyle.insetY}	inset-${headerStyle.inset}	font-bold text-${headerStyle.text} opacity-100	text-white	`}
+        className={`z-10 absolute  inset-1/3 font-bold text-${headerStyle.text} opacity-100	text-white	`}
       >
         {name}
-        {/* <div className="text-center">
-          <div className="flex">
-            <div className="border-t-4"></div>
-            <div className="">
-              <FaThinkPeaks />
-            </div>
-            <div className="border-t-4"></div>
-          </div>
-        </div> */}
       </div>
       <Image
         src={imageUrl}
