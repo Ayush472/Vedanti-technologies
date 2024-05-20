@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/Images/vedanti-technologies-logo.jpg";
+import Logo from "../../assets/Images/remvoebg.png";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
@@ -13,12 +13,12 @@ import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#eceded]">
+    <footer className=" bg-[#eceded] relative">
       <div className="box-border container mx-auto max-w-screen-xl p-4">
         <div className="container flex gap-4  bg-[#eceded] ">
           <div className="flex-auto w-1/2 px-8">
             {/* <div></div> */}
-            <Image src={Logo} alt="Logo" />
+            <Image src={Logo} alt="Logo" width={200} height={200} />
             <div className="mt-2 text-[#4c4c4c] text-base">
               We are serving our electric control Panel manufacturer, exporter
               and maintenance service erection ,installation work, to major
@@ -51,7 +51,7 @@ const Footer = () => {
             <div>
               <Link
                 href={"/"}
-                className="flex justify-start	items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
+                className="flex jitems-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
               >
                 <IoIosArrowForward
                   className="mr-2 transition-all duration-100 ease-in-out text-red-600"
