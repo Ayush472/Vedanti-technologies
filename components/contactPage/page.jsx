@@ -11,7 +11,7 @@ const validationSchema = Yup.object().shape({
   yourName: Yup.string().required("Name is required"),
   yourEmail: Yup.string().email("Invalid email").required("Email is required"),
   subject: Yup.string().required("Subject is required"),
-  yourMessage: Yup.string("Message is required"),
+  yourMessage: Yup.string().required("Message is required"),
 });
 
 const ContactPage = () => {
