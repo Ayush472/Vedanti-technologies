@@ -69,7 +69,7 @@ const CMCPanel = () => {
               </div>
             </div>
             <button
-              className="text-lg border-2 border-red-600 px-2 py-1 rounded mt-2 hover:bg-red-600 hover:text-white"
+              className="text-lg border-2 border-red-600 px-4 py-2 rounded-lg mt-2 transition-all duration-300 ease-in-out hover:bg-red-600 hover:text-white hover:shadow-lg hover:border-transparent"
               onClick={togglePopup}
             >
               Inquiry Now
