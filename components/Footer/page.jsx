@@ -17,7 +17,6 @@ const Footer = () => {
       <div className="box-border container mx-auto max-w-screen-xl p-4">
         <div className="container flex gap-4  bg-[#eceded] ">
           <div className="flex-auto w-1/2 px-8">
-            {/* <div></div> */}
             <Image src={Logo} alt="Logo" width={200} height={200} />
             <div className="mt-2 text-[#4c4c4c] text-base">
               We are serving our electric control Panel manufacturer, exporter
@@ -62,55 +61,31 @@ const Footer = () => {
             </div>
             <div>
               <Link
-                href={"/"}
+                href={"/about"}
                 className="flex justify-start	items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
               >
                 <IoIosArrowForward
                   className="mr-2 transition-all duration-100 ease-in-out text-red-600"
                   fontSize={15}
                 />
-                Company Profile
+                About
               </Link>
             </div>{" "}
             <div>
               <Link
-                href={"/"}
+                href={"/products"}
                 className="flex justify-start	items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
               >
                 <IoIosArrowForward
                   className="mr-2 transition-all duration-100 ease-in-out text-red-600"
                   fontSize={15}
                 />
-                Our Team
+                Products
               </Link>
-            </div>{" "}
+            </div>
             <div>
               <Link
-                href={"/"}
-                className="flex justify-start	items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
-              >
-                <IoIosArrowForward
-                  className="mr-2 transition-all duration-100 ease-in-out text-red-600"
-                  fontSize={15}
-                />
-                Our Products
-              </Link>
-            </div>{" "}
-            <div>
-              <Link
-                href={"/"}
-                className="flex justify-start items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
-              >
-                <IoIosArrowForward
-                  className="mr-2 transition-all duration-100 ease-in-out text-red-600"
-                  fontSize={15}
-                />
-                Our Services
-              </Link>
-            </div>{" "}
-            <div>
-              <Link
-                href={"/"}
+                href={"/contact"}
                 className="flex justify-start	items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
               >
                 <IoIosArrowForward
@@ -119,16 +94,27 @@ const Footer = () => {
                 />
                 Contact
               </Link>
-            </div>{" "}
+            </div>
+            <div>
+              <Link
+                href={"/services"}
+                className="flex justify-start items-center my-2 transition-all duration-100 ease-in-out transform hover:translate-x-2 hover:text-red-600 text-[#4c4c4c]"
+              >
+                <IoIosArrowForward
+                  className="mr-2 transition-all duration-100 ease-in-out text-red-600"
+                  fontSize={15}
+                />
+                Our Services
+              </Link>
+            </div>
           </div>
           <div className="flex-auto w-1/3  text-start">
             <h4
               className=" inline-block rounded-md py-2 px-1 font-bold text-lg mb-2"
               style={{ borderBottom: "2px solid red" }}
             >
-              Get In Touch{" "}
+              Get In Touch
             </h4>
-
             <ul className="mt-2">
               <li>
                 <Link

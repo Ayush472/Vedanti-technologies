@@ -39,9 +39,17 @@ const Header = () => {
                 About
               </div>
             </Link>
-            <div className="hover:text-blueMain font-semibold cursor-pointer hover:underline tracking-wider">
-              Product
-            </div>
+            <Link href="/products">
+              <div
+                className={`hover:text-blueMain font-semibold cursor-pointer hover:border-b-2 hover:border-blueMain tracking-wider ${
+                  activeRoute === "/products"
+                    ? "border-b-2 border-blueMain text-blueMain"
+                    : ""
+                }`}
+              >
+                Product
+              </div>
+            </Link>
             <Link href="/contact" passHref>
               <div
                 className={`hover:text-blueMain font-semibold cursor-pointer hover:border-b-2 hover:border-blueMain tracking-wider ${
@@ -53,9 +61,6 @@ const Header = () => {
                 Contact
               </div>
             </Link>
-            <div className="hover:text-blueMain font-semibold cursor-pointer hover:underline tracking-wider">
-              Service
-            </div>
             <div className="hover:text-white hover:bg-blueMain text-redMain font-semibold cursor-pointer tracking-wider">
               <div className="flex items-center gap-2 shadow px-4 py-2">
                 <IoMdMail /> Service
